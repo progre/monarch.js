@@ -1,0 +1,40 @@
+{
+  "name": "monarch",
+  "description": "This is open-source real-time strategy game.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/progre/monarch.js",
+  "author": {
+    "name": "PROGRE",
+    "email": "djyayutto@gmail.com",
+    "url": "http://www.prgrssv.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/progre/monarch.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/progre/monarch.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/progre/monarch.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/monarch",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
